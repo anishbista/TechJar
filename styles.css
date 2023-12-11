@@ -1,0 +1,73 @@
+.form-container {
+    width: 70%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-step button {
+    margin-top: 10px;
+}
+
+
+.next-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.prev-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #008CBA;
+    color: white;
+    display: none;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.form-step:last-child {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-step:last-child.active {
+    display: block;
+}
